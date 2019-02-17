@@ -1,0 +1,67 @@
+header, nav {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+#logOut {
+    text-align: right;
+}
+
+nav > *, header > * {
+    flex: 1;
+    padding: 0 10px;
+}
+header > * {
+
+    line-height: 50px;
+    background-color: pink;
+}
+
+nav > * {
+
+    text-align: center;
+    line-height: 40px;
+    background-color: #949494;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav  a:hover {
+    text-decoration: underline;
+}
+
+main {
+    height: 300px;
+}
+
+th {
+    background-color: #c3c3c3;
+    line-height: 20px;
+    text-align: left;
+    padding: 4px;
+}
+
+td {
+    line-height: 20px;
+    text-align: left;
+    padding: 4px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+#pagination {
+    background-color: #c3c3c3;
+    line-height: 20px;
+    text-align: center;
+    padding: 4px;
+}
+
+#pagination a {
+
+    border-left: 1px solid #949494;
+    border-right: 1px solid #949494;
+    padding: 0 10px;
+}
